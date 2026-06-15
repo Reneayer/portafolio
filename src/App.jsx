@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Dental from './pages/Dental'; 
 import Mukul from './pages/Mukul';
@@ -95,3 +96,26 @@ export default function App() {
     </Router>
   );
 }
+=======
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Technologies from "./components/Technologies";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Technologies />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
+  );
+}
+
+export default App;
+>>>>>>> 89f1908c9364af888c5887630e9223bb548a3771
